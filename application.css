@@ -1,0 +1,42 @@
+#board{
+  margin: 200px auto;
+  border: 2px solid black;
+  width: 300px;
+}
+
+ul {
+  list-style-type: none;
+  float: left;
+  padding: 0;
+  width: 30px;
+  margin: 0;
+}
+
+.tile {
+  border: 1px solid black;
+  height: 30px;
+  background-color: #ccc;
+}
+
+.group:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+}
+
+.revealed {
+  background-color: white;
+}
+
+.bombed{
+  background-color: red;
+  text-align: center;
+}
+
+.flagged {
+  background-color: yellow;
+}
